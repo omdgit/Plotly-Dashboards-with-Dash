@@ -1,0 +1,29 @@
+name: ml2024
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - ipywidgets
+  - tqdm
+  - matplotlib
+  - plotly
+  - scikit-learn
+  - statsmodels
+  - xgboost
+  - yellowbrick
+  - pandas
+  - numpy
+  - seaborn
+  - optuna
+  - dash
+  - pandas-datareader
+  - requests
+  - urllib3
+  - Werkzeug
+  - tabulate
+  - pip
+  - pip:
+      - feature-engine
+      - optbinning
