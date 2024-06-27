@@ -23,6 +23,10 @@ dependencies:
   - urllib3
   - Werkzeug
   - tabulate
+  - pyodbc
+  - sqlalchemy
+  - psycopg2
+  - cython
   - pip
   - pip:
       - feature-engine
