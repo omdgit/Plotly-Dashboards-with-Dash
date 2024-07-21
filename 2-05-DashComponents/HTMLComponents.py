@@ -3,7 +3,8 @@
 # Feel free to add things to it that you find useful.
 ######
 import dash
-import dash_html_components as html
+# import dash_html_components as html
+from dash import html, dcc, dash_table
 
 app = dash.Dash()
 
