@@ -2,17 +2,15 @@
 # This makes a 3x3 scatterplot of wheels.csv, and sends
 # the result of hover to the screen as a JSON object.
 ######
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output
+import dash 
+from dash import dcc, html, Input, Output, dash_table 
 import plotly.graph_objs as go
 import pandas as pd
 import json
 
 app = dash.Dash()
 
-df = pd.read_csv('../data/wheels.csv')
+df = pd.read_csv('../Data/wheels.csv')
 
 app.layout = html.Div([
     html.Div([
